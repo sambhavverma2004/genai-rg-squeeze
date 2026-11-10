@@ -1,0 +1,128 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/338 [00:00<00:10, 31.84it/s]Loading weights:   3%|▎         | 9/338 [00:00<00:12, 26.09it/s]Loading weights:   4%|▍         | 13/338 [00:00<00:12, 25.59it/s]Loading weights:   5%|▍         | 16/338 [00:00<00:15, 20.75it/s]Loading weights:   6%|▌         | 19/338 [00:00<00:15, 20.04it/s]Loading weights:   7%|▋         | 22/338 [00:01<00:16, 19.45it/s]Loading weights:   9%|▊         | 29/338 [00:01<00:11, 25.76it/s]Loading weights:   9%|▉         | 32/338 [00:01<00:13, 23.00it/s]Loading weights:  10%|█         | 35/338 [00:01<00:13, 22.92it/s]Loading weights:  36%|███▌      | 120/338 [00:01<00:01, 200.92it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 207.83it/s]
+injected LoRA into 196 linear layers; trainable=73.86M
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+device=cuda; training 2000 steps...
+step 10/2000  rank=64  loss=0.6134  1.79 it/s
+step 20/2000  rank=64  loss=0.4511  1.63 it/s
+step 30/2000  rank=64  loss=1.1312  1.80 it/s
+step 40/2000  rank=64  loss=0.4411  1.90 it/s
+step 50/2000  rank=64  loss=0.8545  1.90 it/s
+step 60/2000  rank=64  loss=0.6271  2.02 it/s
+step 70/2000  rank=64  loss=0.5335  2.03 it/s
+step 80/2000  rank=64  loss=0.7083  2.01 it/s
+step 90/2000  rank=64  loss=0.7305  2.00 it/s
+step 100/2000  rank=64  loss=0.6743  2.06 it/s
+step 110/2000  rank=64  loss=0.5726  2.02 it/s
+step 120/2000  rank=64  loss=0.3951  2.03 it/s
+step 130/2000  rank=64  loss=1.2346  2.05 it/s
+step 140/2000  rank=64  loss=0.5833  1.96 it/s
+step 150/2000  rank=64  loss=0.6580  1.85 it/s
+step 160/2000  rank=64  loss=0.4961  1.85 it/s
+step 170/2000  rank=64  loss=0.4634  1.86 it/s
+step 180/2000  rank=64  loss=0.5577  1.84 it/s
+step 190/2000  rank=64  loss=0.6267  1.83 it/s
+step 200/2000  rank=64  loss=0.5445  1.82 it/s
+step 210/2000  rank=64  loss=0.6013  1.81 it/s
+step 220/2000  rank=64  loss=0.3960  1.83 it/s
+step 230/2000  rank=64  loss=0.7516  1.83 it/s
+step 240/2000  rank=64  loss=0.5583  1.82 it/s
+step 250/2000  rank=64  loss=0.5910  1.80 it/s
+step 260/2000  rank=64  loss=0.4436  1.81 it/s
+step 270/2000  rank=64  loss=0.5402  1.83 it/s
+step 280/2000  rank=64  loss=0.5951  1.84 it/s
+step 290/2000  rank=64  loss=0.6760  1.81 it/s
+step 300/2000  rank=64  loss=0.6688  1.82 it/s
+step 310/2000  rank=64  loss=0.6836  1.81 it/s
+step 320/2000  rank=64  loss=0.8187  1.81 it/s
+step 330/2000  rank=64  loss=0.7552  1.81 it/s
+step 340/2000  rank=64  loss=0.8109  1.82 it/s
+step 350/2000  rank=64  loss=0.6909  1.82 it/s
+step 360/2000  rank=64  loss=0.5589  1.81 it/s
+step 370/2000  rank=64  loss=0.6648  1.80 it/s
+step 380/2000  rank=64  loss=0.8380  1.80 it/s
+step 390/2000  rank=64  loss=0.7089  1.81 it/s
+step 400/2000  rank=64  loss=0.7157  1.82 it/s
+step 410/2000  rank=64  loss=0.6877  1.83 it/s
+step 420/2000  rank=64  loss=0.6615  1.82 it/s
+step 430/2000  rank=64  loss=0.7688  1.83 it/s
+step 440/2000  rank=64  loss=0.8472  1.81 it/s
+step 450/2000  rank=64  loss=0.6662  1.82 it/s
+step 460/2000  rank=64  loss=1.8274  1.83 it/s
+step 470/2000  rank=64  loss=0.7155  1.81 it/s
+step 480/2000  rank=64  loss=0.7045  1.82 it/s
+step 490/2000  rank=64  loss=0.7341  1.81 it/s
+step 500/2000  rank=64  loss=0.6234  1.82 it/s
+step 510/2000  rank=64  loss=0.7229  1.81 it/s
+step 520/2000  rank=64  loss=0.8033  1.82 it/s
+step 530/2000  rank=64  loss=0.6637  1.83 it/s
+step 540/2000  rank=64  loss=0.7413  1.83 it/s
+step 550/2000  rank=64  loss=1.9136  1.84 it/s
+step 560/2000  rank=64  loss=3.2795  1.84 it/s
+step 570/2000  rank=64  loss=1.0594  1.83 it/s
+step 580/2000  rank=64  loss=1.3347  1.83 it/s
+step 590/2000  rank=64  loss=1.0084  1.82 it/s
+step 600/2000  rank=64  loss=1.3003  1.83 it/s
+step 610/2000  rank=64  loss=0.7780  1.82 it/s
+step 620/2000  rank=64  loss=0.9334  1.81 it/s
+step 630/2000  rank=64  loss=0.9682  1.79 it/s
+step 640/2000  rank=64  loss=0.6796  1.79 it/s
+step 650/2000  rank=64  loss=0.8926  1.79 it/s
+step 660/2000  rank=64  loss=0.8383  1.79 it/s
+step 670/2000  rank=64  loss=0.8114  1.79 it/s
+step 680/2000  rank=64  loss=0.6282  1.78 it/s
+step 690/2000  rank=64  loss=0.6773  1.78 it/s
+step 700/2000  rank=64  loss=0.7088  1.77 it/s
+step 710/2000  rank=64  loss=0.6913  1.77 it/s
+step 720/2000  rank=64  loss=0.5935  1.77 it/s
+step 730/2000  rank=64  loss=0.7238  1.77 it/s
+step 740/2000  rank=64  loss=0.9035  1.76 it/s
+step 750/2000  rank=64  loss=0.6883  1.75 it/s
+step 760/2000  rank=64  loss=0.7072  1.76 it/s
+step 770/2000  rank=64  loss=0.6862  1.75 it/s
+step 780/2000  rank=64  loss=0.7160  1.76 it/s
+step 790/2000  rank=64  loss=0.7251  1.75 it/s
+step 800/2000  rank=64  loss=0.7212  1.75 it/s
+step 810/2000  rank=64  loss=0.6563  1.75 it/s
+step 820/2000  rank=64  loss=0.8743  1.75 it/s
+step 830/2000  rank=64  loss=0.6843  1.74 it/s
+step 840/2000  rank=64  loss=0.8041  1.74 it/s
+step 850/2000  rank=64  loss=0.7346  1.74 it/s
+step 860/2000  rank=64  loss=0.6210  1.74 it/s
+step 870/2000  rank=64  loss=0.7285  1.74 it/s
+step 880/2000  rank=64  loss=0.7037  1.73 it/s
+step 890/2000  rank=64  loss=0.6816  1.73 it/s
+step 900/2000  rank=64  loss=0.7187  1.73 it/s
+step 910/2000  rank=64  loss=0.7240  1.72 it/s
+step 920/2000  rank=64  loss=0.7204  1.72 it/s
+step 930/2000  rank=64  loss=0.6706  1.72 it/s
+step 940/2000  rank=64  loss=0.6291  1.71 it/s
+step 950/2000  rank=64  loss=0.7490  1.71 it/s
+step 960/2000  rank=64  loss=0.7229  1.71 it/s
+step 970/2000  rank=64  loss=0.9887  1.71 it/s
+step 980/2000  rank=64  loss=1.1600  1.71 it/s
+step 990/2000  rank=64  loss=0.8672  1.71 it/s
+step 1000/2000  rank=64  loss=0.8332  1.71 it/s
+step 1010/2000  rank=64  loss=0.7453  1.71 it/s
+step 1020/2000  rank=64  loss=0.8382  1.71 it/s
+step 1030/2000  rank=64  loss=0.7230  1.71 it/s
+step 1040/2000  rank=64  loss=0.6524  1.71 it/s
+step 1050/2000  rank=64  loss=0.6593  1.71 it/s
+step 1060/2000  rank=64  loss=0.7110  1.71 it/s
+step 1070/2000  rank=64  loss=0.6750  1.71 it/s
+step 1080/2000  rank=64  loss=0.7505  1.71 it/s
+step 1090/2000  rank=64  loss=0.6619  1.71 it/s
+step 1100/2000  rank=64  loss=0.7125  1.70 it/s
+step 1110/2000  rank=64  loss=0.6657  1.71 it/s
+step 1120/2000  rank=64  loss=0.6638  1.71 it/s
+step 1130/2000  rank=64  loss=0.7233  1.70 it/s
+step 1140/2000  rank=64  loss=0.7231  1.71 it/s
+step 1150/2000  rank=64  loss=0.7546  1.71 it/s
+step 1160/2000  rank=64  loss=0.7219  1.71 it/s
+step 1170/2000  rank=64  loss=0.7154  1.71 it/s
+step 1180/2000  rank=64  loss=0.6823  1.71 it/s
+step 1190/2000  rank=64  loss=0.9149  1.71 it/s
+step 1200/2000  rank=64  loss=0.7365  1.71 it/s
+step 1210/2000  rank=64  loss=0.6425  1.71 it/s
+step 1220/2000  rank=64  loss=0.7801  1.71 it/s
+step 1230/2000  rank=64  loss=0.7936  1.70 it/s

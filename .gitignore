@@ -1,0 +1,9 @@
+# personal handoff notes (kept local)
+CLAUDE.md
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pt
+*.safetensors
+.ipynb_checkpoints/

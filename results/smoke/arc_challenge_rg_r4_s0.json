@@ -1,0 +1,30 @@
+{
+ "model": "Qwen/Qwen2.5-1.5B",
+ "task": "arc_challenge",
+ "policy": "rg",
+ "r_src": 64,
+ "r_tgt": 4,
+ "steps": 20,
+ "bs": 8,
+ "max_len": 512,
+ "lr": 0.0002,
+ "scale": 2.0,
+ "targets": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+ "eval_n": 1000,
+ "seed": 0,
+ "min_steps": 200,
+ "cont_steps": 200,
+ "tau0": 0.98,
+ "quantile": 0.25,
+ "max_shrink": 4,
+ "out": "results/smoke",
+ "final_rank": 64,
+ "acc": 0.7759197324414716,
+ "train_time_s": 6.927618026733398,
+ "eval_time_s": 3.188793897628784,
+ "rank_traj": [
+  64
+ ],
+ "loss_tail": 0.23514960676431657,
+ "squeeze_log": []
+}

@@ -1,0 +1,3 @@
+17:45:22 batch seeds: 20 jobs to run (0 already done), deadline 23:00
+17:45:22 GPU0 START boolq_direct_r4_s1 (est 21 min)
+17:45:22 GPU1 START boolq_post_r4_s1 (est 21 min)
